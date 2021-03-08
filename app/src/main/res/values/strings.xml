@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StoreCamera</string>
+    <string name="nama">Muhammad Shiddiq Fathullah</string>
+    <string name="email">shiddiqmu4@gmail.com</string>
+    <string name="program">Mobile Development Program</string>
+    <string name="img">Gambar</string>
+    <string name="back">Back</string>
+</resources>
