@@ -17,20 +17,21 @@
             android:gravity="center"
             android:padding="12dp">
 
-            <Button
-                android:id="@+id/btnDetail"
-                android:layout_width="32dp"
-                android:layout_height="60dp"
-                android:layout_margin="4dp"
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
                 android:layout_weight="1"
-                android:text="@string/detail" />
+                android:layout_margin="12dp"
+                android:text="Find Your Best Camera!" />
 
             <Button
                 android:id="@+id/btnAbout"
                 android:layout_width="32dp"
                 android:layout_height="60dp"
                 android:layout_margin="4dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:text="@string/about"/>
         </LinearLayout>
 
