@@ -7,6 +7,7 @@ import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import android.widget.Button
+import android.widget.ImageView
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dicoding.storecamera.databinding.ActivityMainBinding
 import androidx.recyclerview.widget.RecyclerView
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
         setContentView(binding.root)
 
         //val button
-        val btnMoveAbout: Button = findViewById(R.id.btnAbout)
+        val btnMoveAbout: ImageView = findViewById(R.id.btnAbout)
         btnMoveAbout.setOnClickListener(this)
 
         // RecyclerCardView

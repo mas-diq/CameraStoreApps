@@ -10,4 +10,5 @@
     <color name="main">#222831</color>
     <color name="secondary">#30475e</color>
     <color name="third">#f05454</color>
+    <color name="forth"></color>
 </resources>

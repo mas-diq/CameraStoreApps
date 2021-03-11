@@ -9,4 +9,5 @@ data class Events (
     var title: String = "",
     var description: String = "",
     var price: String = "",
-) : Parcelable
+    var longDesc: String = "",
+    ) : Parcelable

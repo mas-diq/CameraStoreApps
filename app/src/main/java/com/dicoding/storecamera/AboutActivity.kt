@@ -5,13 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageView
 
 class AboutActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        val btnMove: Button = findViewById(R.id.btnBack)
+        val btnMove: ImageView = findViewById(R.id.btnBack)
         btnMove.setOnClickListener(this)
     }
 

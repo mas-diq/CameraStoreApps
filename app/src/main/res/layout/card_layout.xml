@@ -29,6 +29,7 @@
             android:layout_width="240dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:fontFamily="@font/montserrat_semi_bold"
             android:textColor="@color/main"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/montserrat_regular"
             android:textColor="@color/secondary"
             android:textSize="18sp"
             app:layout_constraintLeft_toRightOf="@id/item_image"
@@ -53,12 +55,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/montserrat_regular"
             android:textColor="@color/third"
             android:textSize="16sp"
             android:textStyle="italic"
             app:layout_constraintLeft_toRightOf="@id/item_image"
             app:layout_constraintTop_toBottomOf="@id/item_description" />
- />
+        />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>

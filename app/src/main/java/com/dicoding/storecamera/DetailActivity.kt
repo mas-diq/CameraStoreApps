@@ -1,5 +1,6 @@
 package com.dicoding.storecamera
 
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -34,10 +35,11 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
             binding.tvItemModel.text = eventsData?.title
             binding.tvItemDescription.text = eventsData?.description
             binding.tvItemPrice.text = eventsData?.price
+            binding.tvItemLongDesc.text = eventsData?.longDesc
         }
 
         // Return Back Listener
-        val returnDetail: Button = binding.btnBack
+        val returnDetail: ImageView = binding.btnBack
         returnDetail.setOnClickListener(this)
     }
 
