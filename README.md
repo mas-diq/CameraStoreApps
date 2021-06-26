@@ -12,7 +12,14 @@
 </p>
 <br>
 
-## License
+## How to use ?
+<p align="left">
+  You can directly download file 
+<a href="https://github.com/mas-diq/CameraStoreApps/blob/master/CameraStoreApps.apk"><strong>APK</strong></a> 
+  by click that link, and install on your smartphone.
+</p>
+
+## MIT License
 <p align="left">
   Distributed under the MIT License
 <a href="https://github.com/mas-diq/CameraStoreApps/blob/master/LICENSE"><strong>See License</strong></a> 
@@ -20,7 +27,6 @@
 </p>
 
 ## Modern Android Development Score
-<!-- MAD Score -->
  <img src="https://github.com/mas-diq/StoreCameraApps/blob/master/summary.png" />
  <img src="https://github.com/mas-diq/StoreCameraApps/blob/master/kotlin.png" />
  <img src="https://github.com/mas-diq/StoreCameraApps/blob/master/studio.png" />
