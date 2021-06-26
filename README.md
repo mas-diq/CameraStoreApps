@@ -1,11 +1,11 @@
-# StoreCameraApps
+# CameraStoreApps
 <!-- PROJECT LOGO -->
 <p align="center">
   <br>
   <img  width="280px" src="https://github.com/mas-diq/StoreCameraApps/blob/master/app/src/main/res/drawable/camera.png" />
   <h3 align="center">Store Camera Apps</h3>
   <p align="center">
-   Store Camera Apps is my first application which was made using kotlin as the programming language, and android as the framework. This application will display Sony Camera Image, Specs, and Price data from the local database.
+   Camera Store Apps is my first application which was made using kotlin as the programming language, and android as the framework. This application will display Sony Camera Image, Specs, and Price data from the local database.
     <br />
     <a href="https://github.com/mas-diq/StoreCameraApps"><strong>Explore the docs »</strong></a>
   </p>
