@@ -2,7 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="main">#222831</color>
-
     <color name="grey_bg">#2A2E37</color>
     <color name="grey_bg_main">#1E2027</color>
     <color name="grey_tv">#CCCCCC</color>
