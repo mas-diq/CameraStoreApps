@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnMoveAbout.setOnClickListener(this)
 
         // RecyclerCardView
-        recyclerView = binding.recyclerView
+        recyclerView = binding.rv
 
         list.addAll(EventsData.listData)
         showRecyclerCardView()
