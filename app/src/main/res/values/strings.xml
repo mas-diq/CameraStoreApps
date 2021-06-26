@@ -1,10 +1,26 @@
 <resources>
     <string name="app_name">StoreCamera</string>
-    <string name="nama">Muhammad Shiddiq Fathullah</string>
-    <string name="email">shiddiqmu4@gmail.com</string>
-    <string name="program">Mobile Development Program</string>
-    <string name="img">Gambar</string>
     <string name="back">Back</string>
     <string name="about">about</string>
     <string name="detail">detail</string>
+
+    <!--    profile-->
+    <string name="name">M Shiddiq Fathullah</string>
+    <string name="user_name">mas-diq</string>
+    <string name="follower">Followers</string>
+    <string name="followerValue">19</string>
+    <string name="following">Followings</string>
+    <string name="followingValue">21</string>
+    <string name="company">Company</string>
+    <string name="companyValue">Gunadarma</string>
+    <string name="location">Location</string>
+    <string name="locationValue">Indonesia</string>
+    <string name="repositoryValue">14</string>
+    <string name="repository">Repository</string>
+    <string name="id">73525864</string>
+    <string name="back">Back</string>
+    <string name="dummyTitle1">Kamera full-frame α9 II</string>
+    <string name="dummyTitle2">α9 II menawarkan</string>
+    <string name="dummyPrice">Rp. 63,499,000</string>
+    <string name="dummyText">Lorem Ipsum</string>
 </resources>
