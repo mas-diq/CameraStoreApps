@@ -5,7 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grey_bg_main"
+    android:paddingHorizontal="12dp"
+    android:paddingTop="24dp"
     tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/btnBackAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_icons8_back"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="@string/back"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBackAbout"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!--    img user-->
     <de.hdodenhof.circleimageview.CircleImageView
@@ -137,7 +161,6 @@
             android:textSize="18sp" />
     </LinearLayout>
 
-
     <!-- Information Box -->
     <View
         android:id="@+id/information_box"
@@ -168,10 +191,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:fontFamily="@font/montserrat_semi_bold"
+        android:fontFamily="@font/montserrat_regular"
         android:text="@string/follower"
         android:textColor="@color/grey_tv"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/information_box"
         app:layout_constraintStart_toEndOf="@+id/follower_img"
         app:layout_constraintTop_toTopOf="@+id/information_box" />
@@ -208,10 +231,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/montserrat_semi_bold"
+        android:fontFamily="@font/montserrat_regular"
         android:text="@string/following"
         android:textColor="@color/grey_tv"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/information_box"
         app:layout_constraintEnd_toStartOf="@+id/following_value"
         app:layout_constraintTop_toTopOf="@+id/information_box" />
