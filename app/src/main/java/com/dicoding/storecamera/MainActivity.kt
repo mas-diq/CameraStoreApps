@@ -1,28 +1,25 @@
 package com.dicoding.storecamera
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.Window
-import android.view.WindowManager
-import android.widget.Button
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.dicoding.storecamera.databinding.ActivityMainBinding
 import androidx.recyclerview.widget.RecyclerView
+import com.dicoding.storecamera.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), View.OnClickListener  {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var recyclerView : RecyclerView
+    private lateinit var recyclerView: RecyclerView
     private var list: ArrayList<Events> = arrayListOf()
     private lateinit var cardViewEventsAdapter: RecyclerAdapter
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -39,7 +36,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
 
         // Events Card Intent Move With Data
         cardViewEventsAdapter.onClickItem = {
-            val intent = Intent(this,DetailActivity::class.java)
+            val intent = Intent(this, DetailActivity::class.java)
             intent.putExtra(DetailActivity.EXTRA_EVENT, it)
             startActivity(intent)
         }

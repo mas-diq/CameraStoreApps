@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">StoreCamera</string>
-    <string name="back">Back</string>
     <string name="about">about</string>
     <string name="detail">detail</string>
-
     <!--    profile-->
     <string name="name">M Shiddiq Fathullah</string>
     <string name="user_name">mas-diq</string>
@@ -22,5 +20,5 @@
     <string name="dummyTitle1">Kamera full-frame α9 II</string>
     <string name="dummyTitle2">α9 II menawarkan</string>
     <string name="dummyPrice">Rp. 63,499,000</string>
-    <string name="dummyText">Lorem Ipsum</string>
+    <string name="dummyText">Sony menantang batasan alat pengambil gambar konvensional dengan teknologi inovatif, menghasilkan kombinasi resolusi dan kecepatan tak tertandingi serta pengoperasian yang intuitif. α1 menawarkan dimensi baru pada performa gambar sekaligus alur kerja yang efisien, memberi pengguna kebebasan kreatif baru.</string>
 </resources>

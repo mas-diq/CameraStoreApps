@@ -88,11 +88,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/montserrat_regular"
-        android:justificationMode="inter_word"
         android:text="@string/dummyText"
+        android:justificationMode="inter_word"
         android:textColor="@color/grey_tv"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/tv_item_price"
-        app:layout_constraintTop_toBottomOf="@id/tv_item_price"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@id/tv_item_price" />
 </androidx.constraintlayout.widget.ConstraintLayout>

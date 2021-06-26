@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp"
+    android:layout_marginVertical="12dp"
     android:padding="5dp"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/grey_bg"
     app:cardCornerRadius="12dp"
     app:cardElevation="4dp">
 
@@ -14,23 +15,27 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="12dp"
-        android:padding="8dp">
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="24dp">
 
         <ImageView
             android:id="@+id/item_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:src="@drawable/alpha_1"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/item_title"
-            android:layout_width="240dp"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:fontFamily="@font/montserrat_semi_bold"
-            android:textColor="@color/main"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/dummyTitle1"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintLeft_toRightOf="@id/item_image"
@@ -38,30 +43,32 @@
 
         <TextView
             android:id="@+id/item_description"
-            android:layout_width="240dp"
+            android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/montserrat_regular"
-            android:textColor="@color/secondary"
+            android:text="@string/dummyTitle2"
+            android:textColor="@color/grey_tv"
             android:textSize="18sp"
             app:layout_constraintLeft_toRightOf="@id/item_image"
+            app:layout_constraintStart_toStartOf="@+id/item_title"
             app:layout_constraintTop_toBottomOf="@id/item_title" />
-
 
         <TextView
             android:id="@+id/item_price"
-            android:layout_width="240dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/montserrat_regular"
-            android:textColor="@color/third"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background"
+            android:backgroundTint="@color/grey_bg_main"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="8dp"
+            android:text="@string/dummyPrice"
+            android:textColor="@color/white"
             android:textSize="16sp"
-            android:textStyle="italic"
             app:layout_constraintLeft_toRightOf="@id/item_image"
+            app:layout_constraintStart_toStartOf="@+id/item_description"
             app:layout_constraintTop_toBottomOf="@id/item_description" />
-        />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
