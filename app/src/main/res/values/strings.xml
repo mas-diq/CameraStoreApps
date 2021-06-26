@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">StoreCamera</string>
     <string name="about">about</string>
-    <string name="detail">detail</string>
     <!--    profile-->
     <string name="name">M Shiddiq Fathullah</string>
     <string name="user_name">mas-diq</string>
